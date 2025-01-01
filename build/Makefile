@@ -153,29 +153,29 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dev_sandbox.dir/build.make CMakeFiles/dev_sandbox.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-src/speed_test.o: src/speed_test.cpp.o
-.PHONY : src/speed_test.o
+src/time/speed_test.o: src/time/speed_test.cpp.o
+.PHONY : src/time/speed_test.o
 
 # target to build an object file
-src/speed_test.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dev_sandbox.dir/build.make CMakeFiles/dev_sandbox.dir/src/speed_test.cpp.o
-.PHONY : src/speed_test.cpp.o
+src/time/speed_test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dev_sandbox.dir/build.make CMakeFiles/dev_sandbox.dir/src/time/speed_test.cpp.o
+.PHONY : src/time/speed_test.cpp.o
 
-src/speed_test.i: src/speed_test.cpp.i
-.PHONY : src/speed_test.i
+src/time/speed_test.i: src/time/speed_test.cpp.i
+.PHONY : src/time/speed_test.i
 
 # target to preprocess a source file
-src/speed_test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dev_sandbox.dir/build.make CMakeFiles/dev_sandbox.dir/src/speed_test.cpp.i
-.PHONY : src/speed_test.cpp.i
+src/time/speed_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dev_sandbox.dir/build.make CMakeFiles/dev_sandbox.dir/src/time/speed_test.cpp.i
+.PHONY : src/time/speed_test.cpp.i
 
-src/speed_test.s: src/speed_test.cpp.s
-.PHONY : src/speed_test.s
+src/time/speed_test.s: src/time/speed_test.cpp.s
+.PHONY : src/time/speed_test.s
 
 # target to generate assembly for a file
-src/speed_test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dev_sandbox.dir/build.make CMakeFiles/dev_sandbox.dir/src/speed_test.cpp.s
-.PHONY : src/speed_test.cpp.s
+src/time/speed_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dev_sandbox.dir/build.make CMakeFiles/dev_sandbox.dir/src/time/speed_test.cpp.s
+.PHONY : src/time/speed_test.cpp.s
 
 # Help Target
 help:
@@ -189,9 +189,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... src/speed_test.o"
-	@echo "... src/speed_test.i"
-	@echo "... src/speed_test.s"
+	@echo "... src/time/speed_test.o"
+	@echo "... src/time/speed_test.i"
+	@echo "... src/time/speed_test.s"
 .PHONY : help
 
 

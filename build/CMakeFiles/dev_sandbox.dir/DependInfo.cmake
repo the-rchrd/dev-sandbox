@@ -9,7 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/therchrd/Documents/С++/Code/dev-sandbox/main.cpp" "CMakeFiles/dev_sandbox.dir/main.cpp.o" "gcc" "CMakeFiles/dev_sandbox.dir/main.cpp.o.d"
-  "/Users/therchrd/Documents/С++/Code/dev-sandbox/src/speed_test.cpp" "CMakeFiles/dev_sandbox.dir/src/speed_test.cpp.o" "gcc" "CMakeFiles/dev_sandbox.dir/src/speed_test.cpp.o.d"
+  "/Users/therchrd/Documents/С++/Code/dev-sandbox/src/time/speed_test.cpp" "CMakeFiles/dev_sandbox.dir/src/time/speed_test.cpp.o" "gcc" "CMakeFiles/dev_sandbox.dir/src/time/speed_test.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

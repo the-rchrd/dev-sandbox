@@ -7,8 +7,8 @@
 },
 {
   "directory": "/Users/therchrd/Documents/С++/Code/dev-sandbox/build",
-  "command": "/usr/bin/clang++   -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -mmacosx-version-min=15.1 -o CMakeFiles/dev_sandbox.dir/src/speed_test.cpp.o -c /Users/therchrd/Documents/С++/Code/dev-sandbox/src/speed_test.cpp",
-  "file": "/Users/therchrd/Documents/С++/Code/dev-sandbox/src/speed_test.cpp",
-  "output": "CMakeFiles/dev_sandbox.dir/src/speed_test.cpp.o"
+  "command": "/usr/bin/clang++   -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -mmacosx-version-min=15.1 -o CMakeFiles/dev_sandbox.dir/src/time/speed_test.cpp.o -c /Users/therchrd/Documents/С++/Code/dev-sandbox/src/time/speed_test.cpp",
+  "file": "/Users/therchrd/Documents/С++/Code/dev-sandbox/src/time/speed_test.cpp",
+  "output": "CMakeFiles/dev_sandbox.dir/src/time/speed_test.cpp.o"
 }
 ]
