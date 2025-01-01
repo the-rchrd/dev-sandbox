@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 3.5)
+project(dev_sandbox)
+
+set(CXX_STANDARD 17)
+set(CXX_STANDARD_REQUIRED ON)
+set(CXX_EXTENSIONS OFF)
+
+set(SOURCE main.cpp
+    src/speed_test.h src/speed_test.cpp)
+
+add_executable(${PROJECT_NAME} ${SOURCE})
