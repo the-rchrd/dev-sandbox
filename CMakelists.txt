@@ -6,6 +6,8 @@ set(CXX_STANDARD_REQUIRED ON)
 set(CXX_EXTENSIONS OFF)
 
 set(SOURCE main.cpp
-    src/speed_test.h src/speed_test.cpp)
+    src/time/speed_test.h src/time/speed_test.cpp
+
+    src/algorithms/string.h)
 
 add_executable(${PROJECT_NAME} ${SOURCE})

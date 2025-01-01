@@ -1,15 +1,12 @@
 #include <iostream>
 
-#include "src/speed_test.h"
+#include "src/algorithms/string.h"
 
 int main()
 {
-    ds::SpeedTest speed_test;
-
-    std::cout << "Hello, World!" << std::endl;
-
-    speed_test.count();
-    speed_test.print();
+    ds::algorithms::string::find_most_common_symbol::twoCyclesMethod("ababahghjgjhghjkghjgjkghjfghftyftyfjkahfjksahfkjahsjkfasjkfhasjkfhjkashfjkashfjkaskjfhasfhkashfjkasghfghfreterereerrererererfchgcncbncjjahsfjkashfkjashfkjasfhjkashfkjashfkjaskjashfkjashfjksahfjkashfhasjkfhasjkfjkashfjkasfhkjaghfkfghfhjftyvhghghghvghjdfdtrdtrdrhdhfdfgdfgdhgdfgdhdgffytfuyf");
+    ds::algorithms::string::find_most_common_symbol::unorderedSetMethod("ababahghjgjhghjkghjgjkghjfghftyftyfjkahfjksahfkjahsjkfasjkfhasjkfhjkashfjkashfjkaskjfhasfhkashfjkasghfghfreterereerrererererfchgcncbncjjahsfjkashfkjashfkjasfhjkashfkjashfkjaskjashfkjashfjksahfjkashfhasjkfhasjkfjkashfjkasfhkjaghfkfghfhjftyvhghghghvghjdfdtrdtrdrhdhfdfgdfgdhgdfgdhdgffytfuyf");
+    ds::algorithms::string::find_most_common_symbol::unorderedMapMethod("ababahghjgjhghjkghjgjkghjfghftyftyfjkahfjksahfkjahsjkfasjkfhasjkfhjkashfjkashfjkaskjfhasfhkashfjkasghfghfreterereerrererererfchgcncbncjjahsfjkashfkjashfkjasfhjkashfkjashfkjaskjashfkjashfjksahfjkashfhasjkfhasjkfjkashfjkasfhkjaghfkfghfhjftyvhghghghvghjdfdtrdtrdrhdhfdfgdfgdhgdfgdhdgffytfuyf");
 
     return 0;
 }
