@@ -40,27 +40,31 @@ The optimal solution for this problem has **O(N) complexity**, as demonstrated b
     ```bash
     git clone https://github.com/the-rchrd/dev-sandbox.git
     cd dev-sandbox
+    ```
 2. Build the project:
     ```bash
     mkdir build && cd build
     cmake ..
     make
+    ```
 3. Run the executable:
     ```bash
     ./dev_sandbox
+    ```
 
 ---
 
 ## 🧪 Examples
 
 ### **Finding the Most Common Symbol**
-    ```bash
+    ```cpp
     #include <algorithms/string/find_most_common_symbol.hpp>
 
     int main() {
         ds::algorithms::string::find_most_common_symbol::unordered_map_method("input.txt");
         return 0;
     }
+    ```
 
 ---
 
@@ -76,6 +80,7 @@ The optimal solution for this problem has **O(N) complexity**, as demonstrated b
     ├── tests/                    # Unit tests for algorithms
     ├── CMakeLists.txt            # Build system configuration
     └── README.md                 # Project documentation
+    ```
 
 ---
 
