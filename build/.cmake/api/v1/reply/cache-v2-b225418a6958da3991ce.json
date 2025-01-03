@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/therchrd/Documents/\u0421++/Code/dev-sandbox/build"
+			"value" : "/Users/therchrd/Documents/\u0421++/dev-sandbox/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -491,7 +491,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/therchrd/Documents/\u0421++/Code/dev-sandbox/build/CMakeFiles/pkgRedirects"
+			"value" : "/Users/therchrd/Documents/\u0421++/dev-sandbox/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -551,7 +551,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/therchrd/Documents/\u0421++/Code/dev-sandbox"
+			"value" : "/Users/therchrd/Documents/\u0421++/dev-sandbox"
 		},
 		{
 			"name" : "CMAKE_INSTALL_NAME_TOOL",
@@ -1143,7 +1143,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/therchrd/Documents/\u0421++/Code/dev-sandbox/build"
+			"value" : "/Users/therchrd/Documents/\u0421++/dev-sandbox/build"
 		},
 		{
 			"name" : "dev_sandbox_IS_TOP_LEVEL",
@@ -1167,7 +1167,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/therchrd/Documents/\u0421++/Code/dev-sandbox"
+			"value" : "/Users/therchrd/Documents/\u0421++/dev-sandbox"
 		}
 	],
 	"kind" : "cache",

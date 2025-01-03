@@ -1,5 +1,5 @@
 CMakeFiles/dev_sandbox.dir/main.cpp.o: \
-  /Users/therchrd/Documents/С++/Code/dev-sandbox/main.cpp \
+  /Users/therchrd/Documents/С++/dev-sandbox/main.cpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/iostream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__assert \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__assertion_handler \
@@ -955,7 +955,7 @@ CMakeFiles/dev_sandbox.dir/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__format/formatter_tuple.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/print \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/unistd.h \
-  /Users/therchrd/Documents/С++/Code/dev-sandbox/src/algorithms/string.hpp \
+  /Users/therchrd/Documents/С++/dev-sandbox/src/algorithms/string.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/fstream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/filesystem \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
@@ -977,7 +977,7 @@ CMakeFiles/dev_sandbox.dir/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__filesystem/u8path.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/unordered_set \
-  /Users/therchrd/Documents/С++/Code/dev-sandbox/src/algorithms/../time/speed_test.hpp \
+  /Users/therchrd/Documents/С++/dev-sandbox/include/ds/time/speed_test.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/chrono \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__chrono/calendar.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__chrono/convert_to_tm.h \
@@ -994,8 +994,6 @@ CMakeFiles/dev_sandbox.dir/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__chrono/year_month_weekday.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__chrono/literals.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/forward_list \
-  /Users/therchrd/Documents/С++/Code/dev-sandbox/src/algorithms/../time/../interfaces/i_time.hpp \
-  /Users/therchrd/Documents/С++/Code/dev-sandbox/src/tasks/watermelon/watermelon.hpp \
-  /Users/therchrd/Documents/С++/Code/dev-sandbox/src/tasks/watermelon/../../time/speed_test.hpp \
-  /Users/therchrd/Documents/С++/Code/dev-sandbox/src/tasks/too_long_words/too_long_words.hpp \
-  /Users/therchrd/Documents/С++/Code/dev-sandbox/src/tasks/too_long_words/../../time/speed_test.hpp
+  /Users/therchrd/Documents/С++/dev-sandbox/src/tasks/tasks.hpp \
+  /Users/therchrd/Documents/С++/dev-sandbox/src/tasks/too_long_words/too_long_words.hpp \
+  /Users/therchrd/Documents/С++/dev-sandbox/src/tasks/watermelon/watermelon.hpp

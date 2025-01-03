@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/clang++
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/Users/therchrd/Documents/С++/dev-sandbox/src -I/Users/therchrd/Documents/С++/dev-sandbox/include
 
 CXX_FLAGSarm64 = -std=c++17 -Werror -Wall -Wextra -pedantic-errors -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -mmacosx-version-min=15.1
 

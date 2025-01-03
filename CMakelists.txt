@@ -1,17 +1,13 @@
 cmake_minimum_required(VERSION 3.5)
 project(dev_sandbox)
 
-set(CXX_STANDARD 17)
-set(CXX_STANDARD_REQUIRED ON)
+include_directories(${CMAKE_SOURCE_DIR}/src ${CMAKE_SOURCE_DIR}/include)
 
 set(CMAKE_CXX_FLAGS "-std=c++17 -Werror -Wall -Wextra -pedantic-errors")
 
-set(SOURCE main.cpp
-    src/time/speed_test.hpp src/time/speed_test.cpp
-
-    src/algorithms/string.hpp
-    
-    src/tasks/watermelon/watermelon.hpp
-    src/tasks/too_long_words/too_long_words.hpp)
+set(SOURCE main.cpp)
 
 add_executable(${PROJECT_NAME} ${SOURCE})
+
+target_include_directories(${PROJECT_NAME} PUBLIC
+    ${CMAKE_SOURCE_DIR}/src ${CMAKE_SOURCE_DIR}/include)

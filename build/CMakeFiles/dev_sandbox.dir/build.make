@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/therchrd/Documents/С++/Code/dev-sandbox
+CMAKE_SOURCE_DIR = /Users/therchrd/Documents/С++/dev-sandbox
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/therchrd/Documents/С++/Code/dev-sandbox/build
+CMAKE_BINARY_DIR = /Users/therchrd/Documents/С++/dev-sandbox/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/dev_sandbox.dir/depend.make
@@ -70,46 +70,30 @@ include CMakeFiles/dev_sandbox.dir/progress.make
 include CMakeFiles/dev_sandbox.dir/flags.make
 
 CMakeFiles/dev_sandbox.dir/main.cpp.o: CMakeFiles/dev_sandbox.dir/flags.make
-CMakeFiles/dev_sandbox.dir/main.cpp.o: /Users/therchrd/Documents/С++/Code/dev-sandbox/main.cpp
+CMakeFiles/dev_sandbox.dir/main.cpp.o: /Users/therchrd/Documents/С++/dev-sandbox/main.cpp
 CMakeFiles/dev_sandbox.dir/main.cpp.o: CMakeFiles/dev_sandbox.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/therchrd/Documents/С++/Code/dev-sandbox/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/dev_sandbox.dir/main.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dev_sandbox.dir/main.cpp.o -MF CMakeFiles/dev_sandbox.dir/main.cpp.o.d -o CMakeFiles/dev_sandbox.dir/main.cpp.o -c /Users/therchrd/Documents/С++/Code/dev-sandbox/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/therchrd/Documents/С++/dev-sandbox/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/dev_sandbox.dir/main.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dev_sandbox.dir/main.cpp.o -MF CMakeFiles/dev_sandbox.dir/main.cpp.o.d -o CMakeFiles/dev_sandbox.dir/main.cpp.o -c /Users/therchrd/Documents/С++/dev-sandbox/main.cpp
 
 CMakeFiles/dev_sandbox.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dev_sandbox.dir/main.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/therchrd/Documents/С++/Code/dev-sandbox/main.cpp > CMakeFiles/dev_sandbox.dir/main.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/therchrd/Documents/С++/dev-sandbox/main.cpp > CMakeFiles/dev_sandbox.dir/main.cpp.i
 
 CMakeFiles/dev_sandbox.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dev_sandbox.dir/main.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/therchrd/Documents/С++/Code/dev-sandbox/main.cpp -o CMakeFiles/dev_sandbox.dir/main.cpp.s
-
-CMakeFiles/dev_sandbox.dir/src/time/speed_test.cpp.o: CMakeFiles/dev_sandbox.dir/flags.make
-CMakeFiles/dev_sandbox.dir/src/time/speed_test.cpp.o: /Users/therchrd/Documents/С++/Code/dev-sandbox/src/time/speed_test.cpp
-CMakeFiles/dev_sandbox.dir/src/time/speed_test.cpp.o: CMakeFiles/dev_sandbox.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/therchrd/Documents/С++/Code/dev-sandbox/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/dev_sandbox.dir/src/time/speed_test.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dev_sandbox.dir/src/time/speed_test.cpp.o -MF CMakeFiles/dev_sandbox.dir/src/time/speed_test.cpp.o.d -o CMakeFiles/dev_sandbox.dir/src/time/speed_test.cpp.o -c /Users/therchrd/Documents/С++/Code/dev-sandbox/src/time/speed_test.cpp
-
-CMakeFiles/dev_sandbox.dir/src/time/speed_test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dev_sandbox.dir/src/time/speed_test.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/therchrd/Documents/С++/Code/dev-sandbox/src/time/speed_test.cpp > CMakeFiles/dev_sandbox.dir/src/time/speed_test.cpp.i
-
-CMakeFiles/dev_sandbox.dir/src/time/speed_test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dev_sandbox.dir/src/time/speed_test.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/therchrd/Documents/С++/Code/dev-sandbox/src/time/speed_test.cpp -o CMakeFiles/dev_sandbox.dir/src/time/speed_test.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/therchrd/Documents/С++/dev-sandbox/main.cpp -o CMakeFiles/dev_sandbox.dir/main.cpp.s
 
 # Object files for target dev_sandbox
 dev_sandbox_OBJECTS = \
-"CMakeFiles/dev_sandbox.dir/main.cpp.o" \
-"CMakeFiles/dev_sandbox.dir/src/time/speed_test.cpp.o"
+"CMakeFiles/dev_sandbox.dir/main.cpp.o"
 
 # External object files for target dev_sandbox
 dev_sandbox_EXTERNAL_OBJECTS =
 
 dev_sandbox: CMakeFiles/dev_sandbox.dir/main.cpp.o
-dev_sandbox: CMakeFiles/dev_sandbox.dir/src/time/speed_test.cpp.o
 dev_sandbox: CMakeFiles/dev_sandbox.dir/build.make
 dev_sandbox: CMakeFiles/dev_sandbox.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/therchrd/Documents/С++/Code/dev-sandbox/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable dev_sandbox"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/therchrd/Documents/С++/dev-sandbox/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable dev_sandbox"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dev_sandbox.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -121,6 +105,6 @@ CMakeFiles/dev_sandbox.dir/clean:
 .PHONY : CMakeFiles/dev_sandbox.dir/clean
 
 CMakeFiles/dev_sandbox.dir/depend:
-	cd /Users/therchrd/Documents/С++/Code/dev-sandbox/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/therchrd/Documents/С++/Code/dev-sandbox /Users/therchrd/Documents/С++/Code/dev-sandbox /Users/therchrd/Documents/С++/Code/dev-sandbox/build /Users/therchrd/Documents/С++/Code/dev-sandbox/build /Users/therchrd/Documents/С++/Code/dev-sandbox/build/CMakeFiles/dev_sandbox.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/therchrd/Documents/С++/dev-sandbox/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/therchrd/Documents/С++/dev-sandbox /Users/therchrd/Documents/С++/dev-sandbox /Users/therchrd/Documents/С++/dev-sandbox/build /Users/therchrd/Documents/С++/dev-sandbox/build /Users/therchrd/Documents/С++/dev-sandbox/build/CMakeFiles/dev_sandbox.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/dev_sandbox.dir/depend
 

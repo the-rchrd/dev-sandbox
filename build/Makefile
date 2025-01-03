@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.30.5/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/therchrd/Documents/С++/Code/dev-sandbox
+CMAKE_SOURCE_DIR = /Users/therchrd/Documents/С++/dev-sandbox
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/therchrd/Documents/С++/Code/dev-sandbox/build
+CMAKE_BINARY_DIR = /Users/therchrd/Documents/С++/dev-sandbox/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/therchrd/Documents/С++/Code/dev-sandbox/build/CMakeFiles /Users/therchrd/Documents/С++/Code/dev-sandbox/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/therchrd/Documents/С++/dev-sandbox/build/CMakeFiles /Users/therchrd/Documents/С++/dev-sandbox/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/therchrd/Documents/С++/Code/dev-sandbox/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/therchrd/Documents/С++/dev-sandbox/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -153,30 +153,6 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dev_sandbox.dir/build.make CMakeFiles/dev_sandbox.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-src/time/speed_test.o: src/time/speed_test.cpp.o
-.PHONY : src/time/speed_test.o
-
-# target to build an object file
-src/time/speed_test.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dev_sandbox.dir/build.make CMakeFiles/dev_sandbox.dir/src/time/speed_test.cpp.o
-.PHONY : src/time/speed_test.cpp.o
-
-src/time/speed_test.i: src/time/speed_test.cpp.i
-.PHONY : src/time/speed_test.i
-
-# target to preprocess a source file
-src/time/speed_test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dev_sandbox.dir/build.make CMakeFiles/dev_sandbox.dir/src/time/speed_test.cpp.i
-.PHONY : src/time/speed_test.cpp.i
-
-src/time/speed_test.s: src/time/speed_test.cpp.s
-.PHONY : src/time/speed_test.s
-
-# target to generate assembly for a file
-src/time/speed_test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dev_sandbox.dir/build.make CMakeFiles/dev_sandbox.dir/src/time/speed_test.cpp.s
-.PHONY : src/time/speed_test.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -189,9 +165,6 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... src/time/speed_test.o"
-	@echo "... src/time/speed_test.i"
-	@echo "... src/time/speed_test.s"
 .PHONY : help
 
 

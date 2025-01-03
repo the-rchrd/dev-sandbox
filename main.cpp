@@ -1,8 +1,7 @@
 #include <iostream>
 
-#include "src/algorithms/string.hpp"
-#include "src/tasks/watermelon/watermelon.hpp"
-#include "src/tasks/too_long_words/too_long_words.hpp"
+#include <algorithms/string.hpp>
+#include <tasks/tasks.hpp>
 
 int main()
 {

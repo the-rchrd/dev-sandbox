@@ -1,10 +1,12 @@
+#pragma once
+
 #include <iostream>
 #include <fstream>
 #include <string>
 #include <unordered_map>
 #include <unordered_set>
 
-#include "../time/speed_test.hpp"
+#include <ds/time/speed_test.hpp>
 
 namespace ds
 {

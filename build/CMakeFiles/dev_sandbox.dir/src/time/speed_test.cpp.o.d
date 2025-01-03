@@ -1,6 +1,6 @@
 CMakeFiles/dev_sandbox.dir/src/time/speed_test.cpp.o: \
-  /Users/therchrd/Documents/С++/Code/dev-sandbox/src/time/speed_test.cpp \
-  /Users/therchrd/Documents/С++/Code/dev-sandbox/src/time/speed_test.hpp \
+  /Users/therchrd/Documents/С++/dev-sandbox/src/time/speed_test.cpp \
+  /Users/therchrd/Documents/С++/dev-sandbox/src/time/speed_test.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/iostream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__assert \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__assertion_handler \
@@ -974,4 +974,4 @@ CMakeFiles/dev_sandbox.dir/src/time/speed_test.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__chrono/literals.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/forward_list \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/iomanip \
-  /Users/therchrd/Documents/С++/Code/dev-sandbox/src/time/../interfaces/i_time.hpp
+  /Users/therchrd/Documents/С++/dev-sandbox/src/time/../interfaces/i_time.hpp
