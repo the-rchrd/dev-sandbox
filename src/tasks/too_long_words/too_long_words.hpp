@@ -2,7 +2,7 @@
 
 #include <fstream>
 
-#include "../../time/speed_test.h"
+#include "../../time/speed_test.hpp"
 
 namespace ds
 {
@@ -10,7 +10,7 @@ namespace ds
     {
         namespace too_long_words
         {
-            const void solution(const std::string path)
+            void solution(const std::string path)
             {
                 ds::SpeedTest speed_test;
 

@@ -1,4 +1,4 @@
-#include "speed_test.h"
+#include "speed_test.hpp"
 
 using namespace ds;
 
@@ -18,9 +18,9 @@ void SpeedTest::count()
 
 void SpeedTest::clear() { time_pairs.clear(); }
 
-void SpeedTest::print()
+void SpeedTest::print() const
 {
-    for (int i = 0; i < time_pairs.size() - 1; i++)
+    for (int i = 0; i < (int) time_pairs.size() - 1; i++)
     {
         auto diff = time_pairs[i].end - time_pairs[i].start;
         std::cout << "\n} ~execution time: " << std::setprecision(2) << std::chrono::duration<double, std::milli>(diff).count() << "ms~\n";

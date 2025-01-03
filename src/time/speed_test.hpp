@@ -5,6 +5,8 @@
 #include <vector>
 #include <iomanip>
 
+#include "../interfaces/i_time.hpp"
+
 namespace ds
 {
     typedef std::chrono::time_point<std::chrono::steady_clock> time;
@@ -16,15 +18,15 @@ namespace ds
         time difference() { return time(end - start); }
     };
 
-    class SpeedTest
+    class SpeedTest : public ITime
     {
-    std::vector<TimePair> time_pairs;
+        mutable std::vector<TimePair> time_pairs;
 
-    public:
-        SpeedTest();
+        public:
+            SpeedTest();
 
-        void count();
-        void clear();
-        void print();
+            void count();
+            void clear();
+            void print() const;
     };
 }

@@ -3,14 +3,15 @@ project(dev_sandbox)
 
 set(CXX_STANDARD 17)
 set(CXX_STANDARD_REQUIRED ON)
-set(CXX_EXTENSIONS OFF)
+
+set(CMAKE_CXX_FLAGS "-std=c++17 -Werror -Wall -Wextra -pedantic-errors")
 
 set(SOURCE main.cpp
-    src/time/speed_test.h src/time/speed_test.cpp
+    src/time/speed_test.hpp src/time/speed_test.cpp
 
-    src/algorithms/string.h
+    src/algorithms/string.hpp
     
-    src/tasks/watermelon/watermelon.h
-    src/tasks/too_long_words/too_long_words.h)
+    src/tasks/watermelon/watermelon.hpp
+    src/tasks/too_long_words/too_long_words.hpp)
 
 add_executable(${PROJECT_NAME} ${SOURCE})

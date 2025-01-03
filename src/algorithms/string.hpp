@@ -1,9 +1,10 @@
 #include <iostream>
+#include <fstream>
 #include <string>
-#include <unordered_set>
 #include <unordered_map>
+#include <unordered_set>
 
-#include "../time/speed_test.h"
+#include "../time/speed_test.hpp"
 
 namespace ds
 {
@@ -13,9 +14,14 @@ namespace ds
         {
             namespace find_most_common_symbol
             {
-                void twoCyclesMethod(std::string s)
+                void twoCyclesMethod(const std::string path)
                 {
                     ds::SpeedTest speed_test;
+
+                    std::ifstream in(path);
+                    
+                    std::string s;
+                    in >> s;
 
                     std::cout << "\t~two cycles method with O(N^2) complexity~" << std::endl;
 
@@ -25,10 +31,10 @@ namespace ds
                     ////////////////////////////////////////// ...two cycles...
                     ///         ———————————————————        ///
                     ///         —O(N^2) complexity—        ///
-                    for (int i = 0; i < s.length(); i++)
+                    for (int i = 0; i < (int) s.length(); i++)
                     {
                         int cnt = 0;
-                        for (int j = 0; j < s.length(); j++)
+                        for (int j = 0; j < (int) s.length(); j++)
                         {
                             if (s[i] == s[j])
                                 cnt++;
@@ -49,9 +55,14 @@ namespace ds
                     speed_test.print();
                 }
 
-                void unorderedSetMethod(std::string s)
+                void unorderedSetMethod(const std::string path)
                 {
                     ds::SpeedTest speed_test;
+
+                    std::ifstream in(path);
+                    
+                    std::string s;
+                    in >> s;
 
                     std::cout << "\t~unordered set method with O(K*N) complexity~" << std::endl;
 
@@ -65,7 +76,7 @@ namespace ds
                     for (char ch : unique_str)
                     {
                         int cnt = 0;
-                        for (int i = 0; i < s.length(); i++)
+                        for (int i = 0; i < (int) s.length(); i++)
                         {
                             if (ch == s[i])
                             cnt++;
@@ -86,9 +97,14 @@ namespace ds
                     speed_test.print();
                 }
 
-                void unorderedMapMethod(std::string s)
+                void unorderedMapMethod(const std::string path)
                 {
                     ds::SpeedTest speed_test;
+
+                    std::ifstream in(path);
+                    
+                    std::string s;
+                    in >> s;
 
                     std::cout << "\t~unordered map method with O(N) complexity~" << std::endl;
 
@@ -99,7 +115,7 @@ namespace ds
                     /////////////////////////////////////// ...unordered_set...
                     ///        —————————————————        ///
                     ///        —O(N) complexity—        ///
-                    for (int i = 0; i < s.length(); i++)
+                    for (int i = 0; i < (int) s.length(); i++)
                     {
                         char_map[s[i]]++;
                         if (char_map[s[i]] > res_cnt)

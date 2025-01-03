@@ -2,7 +2,7 @@
 
 #include <fstream>
 
-#include "../../time/speed_test.h"
+#include "../../time/speed_test.hpp"
 
 namespace ds
 {
