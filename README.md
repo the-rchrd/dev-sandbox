@@ -37,35 +37,57 @@ The optimal solution for this problem has **O(N) complexity**, as demonstrated b
 
 ### **How to Build**
 1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/dev-sandbox.git
-   cd dev-sandbox
+    ```bash
+    git clone https://github.com/the-rchrd/dev-sandbox.git
+    cd dev-sandbox
 2. Build the project:
-   mkdir build && cd build
-   cmake ..
-   make
+    ```bash
+    mkdir build && cd build
+    cmake ..
+    make
 3. Run the executable:
-   ./dev_sandbox
+    ```bash
+    ./dev_sandbox
+
+---
 
 ## 🧪 Examples
 
 ### **Finding the Most Common Symbol**
-#include <algorithms/string/find_most_common_symbol.hpp>
+    ```bash
+    #include <algorithms/string/find_most_common_symbol.hpp>
 
-int main() {
-    ds::algorithms::string::find_most_common_symbol::unordered_map_method("input.txt");
-    return 0;
-}
+    int main() {
+        ds::algorithms::string::find_most_common_symbol::unordered_map_method("input.txt");
+        return 0;
+    }
+
+---
 
 ## 📂 Project Structure
+    ```bash
+    .
+    ├── src/
+    │   ├── algorithms/
+    │   │   └── string/           # String algorithms
+    │   ├── tasks/                # Solutions for Codeforces/LeetCode tasks
+    │   ├── time/                 # Utilities for performance measurement
+    │   └── main.cpp              # Entry point
+    ├── tests/                    # Unit tests for algorithms
+    ├── CMakeLists.txt            # Build system configuration
+    └── README.md                 # Project documentation
 
-.
-├── src/
-│   ├── algorithms/
-│   │   └── string/           # String algorithms
-│   ├── tasks/                # Solutions for Codeforces/LeetCode tasks
-│   ├── time/                 # Utilities for performance measurement
-│   └── main.cpp              # Entry point
-├── tests/                    # Unit tests for algorithms
-├── CMakeLists.txt            # Build system configuration
-└── README.md                 # Project documentation
+---
+
+## 🌟 Contributing
+Feel free to fork this repository and submit pull requests. Let's explore C++ together!
+
+---
+
+## 📜 License
+This project is licensed under the MIT License.
+
+---
+
+## 📬 Contact
+For any questions or collaboration, reach out to me on GitHub: @the-rchrd
