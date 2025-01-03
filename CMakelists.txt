@@ -8,6 +8,9 @@ set(CXX_EXTENSIONS OFF)
 set(SOURCE main.cpp
     src/time/speed_test.h src/time/speed_test.cpp
 
-    src/algorithms/string.h)
+    src/algorithms/string.h
+    
+    src/tasks/watermelon/watermelon.h
+    src/tasks/too_long_words/too_long_words.h)
 
 add_executable(${PROJECT_NAME} ${SOURCE})

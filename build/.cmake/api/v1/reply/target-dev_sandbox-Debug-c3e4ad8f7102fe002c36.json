@@ -24,7 +24,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 13,
+				"line" : 16,
 				"parent" : 0
 			}
 		]
@@ -84,7 +84,9 @@
 			"sourceIndexes" : 
 			[
 				1,
-				3
+				3,
+				4,
+				5
 			]
 		}
 	],
@@ -110,6 +112,16 @@
 		{
 			"backtrace" : 1,
 			"path" : "src/algorithms/string.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/tasks/watermelon/watermelon.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/tasks/too_long_words/too_long_words.h",
 			"sourceGroupIndex" : 1
 		}
 	],
